@@ -1,4 +1,12 @@
-# Exer003Cards
+# Exer003 - Angular Cards - SoulCode Java FullStack
+
+<br>
+
+![print de exemplo da página](./src/assets/img/printExemplo.png)
+
+<br>
+
+## Informações Angular 👇
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 

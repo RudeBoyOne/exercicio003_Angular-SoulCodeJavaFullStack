@@ -1,0 +1,92 @@
+/* Estrutura dos cards */
+mat-card{
+    min-width: 21vw;
+    min-height: 58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+/* Estilização padrão para todos os cards */
+h2{
+    font-size: medium;
+    font-weight: 500;
+}
+
+p{  
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#cifrao{
+    font-size: xx-large;
+}
+
+#dinheiro{
+    font-size: 60px;
+}
+
+.wrap2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+hr{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Estilização individual do cards */
+
+/* Card meio */
+#cardMeio{
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#cardMeio hr{
+    background-color: white;
+    height: 0.1mm;
+    border: none;
+    border-width: 0;
+}
+
+#cardMeio button{
+    background-color: white;
+    color: hsl(237, 63%, 64%);
+}
+
+/* Cards Ponta */
+
+.cardsPonta button{
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}

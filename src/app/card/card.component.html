@@ -1,0 +1,18 @@
+
+<mat-card [id]="idCardMeio" [class]="classCardsPonta">
+    <h2>{{titulo}}</h2>
+    <div class="wrap">
+        <P id="cifrao">$</P>
+        <p id="dinheiro">{{dinheiro}}</p>
+    </div>
+    <div class="wrap2">
+        <hr size="1">
+        <p>{{paragrafoUm}}</p>
+        <hr size="">
+        <p>{{paragrafoDois}}</p>
+        <hr size="">
+        <p>{{paragrafoTres}}</p>
+        <hr size="">
+    </div>
+    <button mat-button (click)="openSnackBar()">LEARN MORE</button>
+</mat-card>

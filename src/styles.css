@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: #f7f7ff;
+    background-image: url(./assets/img/bg-bottom.svg), url(./assets/img/bg-top.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left , top right;
+
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
